@@ -1,4 +1,4 @@
-import emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+import * as emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
 emailjs.init('PQDj9ZjUm47ngC0qa');
 
 
