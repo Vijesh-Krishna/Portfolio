@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic Meta Tags -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta Tags -->
-  <title>Vijesh Krishna | Portfolio</title>
-  <meta name="description" content="Official portfolio of Vijesh Krishna – Full Stack Developer passionate about MERN stack, AI, and clean digital experiences.">
-  <meta name="keywords" content="Vijesh Krishna, Portfolio, Developer, MERN, Full Stack, BCA, Kotlin, React, Firebase, Netlify, Projects">
-  <meta name="author" content="Vijesh Krishna">
+    <!-- SEO Meta Tags -->
+    <title>Vijesh Krishna | Portfolio</title>
+    <meta name="description" content="Official portfolio of Vijesh Krishna – Full Stack Developer passionate about MERN stack, AI, and clean digital experiences.">
+    <meta name="keywords" content="Vijesh Krishna, Portfolio, Developer, MERN, Full Stack, BCA, Kotlin, React, Firebase, Netlify, Projects">
+    <meta name="author" content="Vijesh Krishna">
 
-  <!-- Open Graph Meta Tags (for LinkedIn/WhatsApp/Discord previews) -->
-  <meta property="og:title" content="Vijesh Krishna | Portfolio">
-  <meta property="og:description" content="Full Stack Developer – MERN | Kotlin | Firebase | AI Explorer">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://vijeshkrishna.netlify.app">
-  <meta property="og:image" content="https://vijeshkrishna.netlify.app/Certificates/Profile.jpeg">
+    <!-- Open Graph Meta Tags (for LinkedIn/WhatsApp/Discord previews) -->
+    <meta property="og:title" content="Vijesh Krishna | Portfolio">
+    <meta property="og:description" content="Full Stack Developer – MERN | Kotlin | Firebase | AI Explorer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vijeshkrishna.netlify.app">
+    <meta property="og:image" content="https://vijeshkrishna.netlify.app/Certificates/Profile.jpeg">
 
-  <meta name="google-site-verification" content="rvD74LPhSfSc8e1VPpq1D-LTbSnaFUZPo0qciBXebcM" />
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="rvD74LPhSfSc8e1VPpq1D-LTbSnaFUZPo0qciBXebcM" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- CSS & Animation Libraries -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS & Animation Libraries -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- EmailJS SDK -->
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script>
-    (function () {
-      emailjs.init("PQDj9ZjUm47ngC0qa"); // Your actual EmailJS Public Key
-    })();
-  </script>
+    <!-- EmailJS SDK -->
+    <script type="module">
+        import emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+
+        emailjs.init('PQDj9ZjUm47ngC0qa');
+        window.emailjs = emailjs; // make it accessible globally
+    </script>
+
+    <script>
+        (function () {
+        emailjs.init("PQDj9ZjUm47ngC0qa"); // Your actual EmailJS Public Key
+        })();
+    </script>
 </head>
 
 <body>
