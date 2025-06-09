@@ -1,6 +1,8 @@
-import * as emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
-emailjs.init('PQDj9ZjUm47ngC0qa');
+import { sendForm } from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/+esm';
 
+const PUBLIC_KEY = "PQDj9ZjUm47ngC0qa"; 
+const SERVICE_ID = "service_1u5nrmg";  
+const TEMPLATE_ID = "template_9zkm58b"; 
 
 // Initialize AOS (Animate On Scroll)
 AOS.init({
@@ -16,25 +18,21 @@ const navToggle = document.getElementById('mobile-menu');
 const navMenu = document.getElementById('nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
 
-// Navbar scroll effect
 window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 100);
 });
 
-// Mobile menu toggle
 navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
     navToggle.classList.toggle('active');
 });
 
-// Close mobile menu when clicking on a link
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
         navToggle.classList.remove('active');
     });
 
-    // Smooth scroll for navigation
     link.addEventListener('click', (e) => {
         e.preventDefault();
         const targetId = link.getAttribute('href');
@@ -136,7 +134,6 @@ const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    // Fill the hidden time input
     const timeInput = document.querySelector('input[name="time"]');
     if (timeInput) {
         timeInput.value = new Date().toLocaleString();
@@ -148,7 +145,7 @@ contactForm.addEventListener('submit', function (e) {
     submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
     submitBtn.disabled = true;
 
-    emailjs.sendForm('service_1u5nrmg', 'template_9zkm58b', contactForm)
+    sendForm(SERVICE_ID, TEMPLATE_ID, contactForm, PUBLIC_KEY)
         .then(() => {
             submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
             submitBtn.style.background = '#10b981';
