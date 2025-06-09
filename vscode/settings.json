@@ -1,0 +1,8 @@
+{
+    "github.copilot.advanced": {},
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.stickyScroll.enabled": false,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.host": "0.0.0.0"
+}
