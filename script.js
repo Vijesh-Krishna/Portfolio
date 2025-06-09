@@ -1,3 +1,7 @@
+import emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+emailjs.init('PQDj9ZjUm47ngC0qa');
+
+
 // Initialize AOS (Animate On Scroll)
 AOS.init({
     duration: 1000,
