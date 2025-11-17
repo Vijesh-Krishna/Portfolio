@@ -3,14 +3,12 @@
 This is my personal **portfolio website** built using **HTML, CSS, and JavaScript**, designed to showcase my skills, projects, experience, and certifications. 
 The website is also **SEO optimized** for better discoverability.
 
-
 ## 🧰 Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Styling & Animations:** Bootstrap  
 - **SEO:** Meta tags, semantic HTML, optimized performance  
 - **Deployment:** Netlify  
-
 
 ## 🚀 Features
 
