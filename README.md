@@ -24,7 +24,7 @@ The website is also **SEO optimized** for better discoverability.
  
 ---
 
-### Update - adding new projects and internship details soon.
+### Update - new projects and internship details soon.
 
 ---
 If this portfolio resonates with you or your organization, I’d love to connect and collaborate on similar **tech-for-social-good** initiatives.
