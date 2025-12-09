@@ -4,7 +4,7 @@ This is my personal **portfolio website** built using **HTML, CSS, and JavaScrip
 The website is also **SEO optimized** for better discoverability.
  
 ## 🧰 Tech Stack  
-
+ 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Styling & Animations:** Bootstrap  
 - **SEO:** Meta tags, semantic HTML, optimized performance  
