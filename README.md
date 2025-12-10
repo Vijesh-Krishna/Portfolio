@@ -1,4 +1,4 @@
-# 🌐 Vijesh Krishna | Portfolio Website
+# 🌐 Vijesh Krishna | Portfolio Website 
  
 This is my personal **portfolio website** built using **HTML, CSS, and JavaScript**, designed to showcase my skills, projects, experience, and certifications. 
 The website is also **SEO optimized** for better discoverability.
