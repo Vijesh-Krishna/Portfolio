@@ -11,7 +11,7 @@ The website is also **SEO optimized** for better discoverability.
 - **Deployed:** Netlify  
 
 ## 🚀 Features
-
+ 
 - Clean, responsive, and SEO-friendly design  
 - Sections for **About, Skills, Projects, Experience, Certifications, Education, and Contact**  
 - Interactive elements and smooth navigation  
