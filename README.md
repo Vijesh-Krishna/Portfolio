@@ -19,12 +19,12 @@ The website is also **SEO optimized** for better discoverability.
 
 ## 🌟 Status
 
-🚧 Currently live and actively maintained.  
+🚧 Currently live and actively maintained.
 💻 Future updates will include more interactive projects, enhanced SEO, and ongoing updates highlighting my projects, career growth and professional achievements.
  
 --- 
 
-### Update - new projects and internship details soon.
+### Update - new projects and internship details soon. 
 
 ---
 If this portfolio resonates with you or your organization, I’d love to connect and collaborate on similar **tech-for-social-good** initiatives.
