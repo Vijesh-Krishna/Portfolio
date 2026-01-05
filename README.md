@@ -19,7 +19,7 @@ The website is also **SEO optimized** for better discoverability.
 
 ## 🌟 Status
 
-🚧 Currently live and actively maintained.
+🚧 Currently live and actively maintained. 
 💻 Future updates will include more interactive projects, enhanced SEO, and ongoing updates highlighting my projects, career growth and professional achievements.
 
 ---
